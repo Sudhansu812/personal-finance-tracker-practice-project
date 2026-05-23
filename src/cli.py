@@ -1,4 +1,3 @@
-import uuid
 from questionary import select, text, Choice
 from datetime import datetime
 from models.enums import TransactionCategory, TransactionType
@@ -47,8 +46,8 @@ def get_numeric_input(prompt: str) -> float:
         ).ask()
     )
 
-def get_date_input() -> str:
-    choice: int = int(select("How would you like to set the date?",
+def get_date_input(prompt: str = "date") -> str:
+    choice: int = int(select(f"How would you like to set the {prompt}?",
                             choices=[
                                 Choice("Current date", value=0),
                                 Choice("Custom date", value=1)
