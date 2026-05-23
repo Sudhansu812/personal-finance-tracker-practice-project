@@ -1,7 +1,8 @@
 from cli import show_main_menu, get_string_input, get_numeric_input, get_date_input
-from features.tracker import TrackerService as app 
+from features.tracker import TrackerService
 
 def main():
+    app: TrackerService = TrackerService()
     while (True):
         choice = show_main_menu()
         if choice == 0:

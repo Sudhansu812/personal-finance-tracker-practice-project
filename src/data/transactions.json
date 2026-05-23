@@ -24,19 +24,19 @@
         "description": "Recharge"
     },
     {
-        "id": "019e53de-1cdc-7673-bc12-b87086eb0272",
-        "type": "Credit",
-        "amount": 1000.0,
-        "category": "Other",
-        "date": "23-05-2026",
-        "description": "Splitwise - Dinner"
-    },
-    {
         "id": "019e53eb-176d-7108-851d-7fa69d42ff91",
         "type": "Credit",
         "amount": 1000.0,
         "category": "Rent",
         "date": "23-05-2026",
         "description": "Something"
+    },
+    {
+        "id": "019e540a-c0a9-73ef-a284-b52f5af05344",
+        "type": "Debit",
+        "amount": 200.0,
+        "category": "Dining out",
+        "date": "23-05-2026",
+        "description": "Lunch"
     }
 ]

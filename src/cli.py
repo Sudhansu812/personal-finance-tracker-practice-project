@@ -1,5 +1,4 @@
 import uuid
-
 from questionary import select, text, Choice
 from datetime import datetime
 from models.enums import TransactionCategory, TransactionType
@@ -33,18 +32,6 @@ def get_transaction_category() -> str:
     ]
     choice = select("Transaction Category: ", choices=choices).ask()
     return choice.value
-
-def get_transaction_input() -> Transaction:
-    transactionType = get_transaction_type()
-    amount = get_numeric_input("Transaction Amount:")
-    category = get_transaction_category()
-    print("Transaction Date:")
-    date = get_date_input()
-    description = get_string_input("Description:")
-    id = uuid.uuid7()
-    
-    trns: Transaction = Transaction(id = id, amount = amount, category = category, date = date, description = description, type = transactionType)
-    return trns
 
 def get_string_input(prompt: str) -> str:
     return text(

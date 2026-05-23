@@ -9,7 +9,7 @@ import json
 import os
 
 class TransactionRepository:
-    _filepath: str = ""
+    _filepath: Path
     
     def __init__(self):
         self._filepath = Path(__file__).resolve().parent.parent
