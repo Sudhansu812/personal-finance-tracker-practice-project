@@ -1,0 +1,42 @@
+[
+    {
+        "id": "019e3573-66e2-710a-862b-aa78f8c3b7f0",
+        "type": "Debit",
+        "amount": 1000.0,
+        "category": "Groceries",
+        "date": "17-05-2026",
+        "description": "asd"
+    },
+    {
+        "id": "019e3573-66e2-710a-862b-aa79f74afe4a",
+        "type": "Credit",
+        "amount": 40000.0,
+        "category": "Salary",
+        "date": "17-05-2026",
+        "description": "Salart"
+    },
+    {
+        "id": "019e3573-66e1-714a-91c4-066a6dd934c3",
+        "type": "Debit",
+        "amount": 900.0,
+        "category": "Utilities",
+        "date": "17-05-2026",
+        "description": "Recharge"
+    },
+    {
+        "id": "019e53de-1cdc-7673-bc12-b87086eb0272",
+        "type": "Credit",
+        "amount": 1000.0,
+        "category": "Other",
+        "date": "23-05-2026",
+        "description": "Splitwise - Dinner"
+    },
+    {
+        "id": "019e53eb-176d-7108-851d-7fa69d42ff91",
+        "type": "Credit",
+        "amount": 1000.0,
+        "category": "Rent",
+        "date": "23-05-2026",
+        "description": "Something"
+    }
+]
